@@ -85,10 +85,15 @@ body{
     height: 56px;
     border-radius: 33.5px;
     background: #3CB3AB;
-    color: #FFF;
     text-align: center;
     border: none;
+    color: #FFF;
+    font-family: Commissioner;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
 .bookmark{
     width: 174px;
@@ -131,6 +136,11 @@ body{
 
     p{
         margin-top: 8px;
+        color: #7A7A7A;
+        font-family: Commissioner;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
     }
 }
 .slider{
