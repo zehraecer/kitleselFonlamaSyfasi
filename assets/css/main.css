@@ -321,3 +321,250 @@ input[type="range"]::-webkit-slider-thumb {
         background: #2F2F2F;
     }
 }
+
+/* Modal */
+
+.modal-kutu{
+    width: 730px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    .box-3{
+        display: flex;
+        width: 634px;
+        border: solid 1px rgb(184, 178, 178);
+        margin: 25px 40px ;
+        border-radius: 10px;
+
+    }
+
+    .box3-1{
+        display: flex;
+    }
+
+    .radio1 , .radio2 , .radio3 ,.radio4 {
+        margin:40px 40px 100px 40px;
+    }
+    .modal-box3{
+        display: block;
+        margin-top: 30px;
+
+
+    }
+ 
+    .box-3-2{
+        display: flex;
+        margin-top: 25px;
+    }
+    .box3-1-alt{
+        display: flex;
+    }
+  
+    
+    h5{
+        margin-top: 25px;
+        margin-right: 20px;
+        color: #7A7A7A;
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-bottom: 20px;
+
+
+    }
+    .modal-baslik{
+        margin-left: 45px;
+        margin-right: 80px;
+
+
+        h6{
+            margin-top: 25px;
+            color: #7A7A7A;
+            margin-left: -40px;
+        }
+        h3{
+            font-family: Commissioner;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0px;
+            color: #000;
+        }
+    }
+    .modal-close{
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+    
+    }
+
+    h2{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+        margin-right: 15px;
+        
+
+    }
+
+    h3{
+        font-family: Commissioner;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #3CB3AB;
+        margin-right: 130px;
+
+    }
+
+    h4{
+        font-family: Commissioner;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    h6{
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+}
+
+
+.dialog1 , .dialog2 , .dialog3{
+    display: flex;
+    margin: 5px 15px 45px -70px;
+    padding-top: 30px;
+    border-top: 2px solid rgb(204, 200, 200);
+
+    .fiyat{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 48px;
+        border: 1px solid #b4b3b3;
+        border-radius: 30px;
+        margin-right: 15px;
+
+        h3{
+            margin-right: 10px;
+            padding: 0;
+            color: #8b8383;
+            
+        }
+        h4{
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+    h2{
+        font-family: Commissioner;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #7A7A7A;
+        margin-right: 200px;
+
+
+    }
+
+    .continue , .continue2 , .continue3{
+        width: 107px;
+        height: 48px;
+        border-radius: 30px;
+        margin-bottom: -85px;
+        font-family: Commissioner;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFF;
+        border: none;
+        background: #3CB3AB;
+
+    }
+}
+
+.complete{
+    width: 540px;
+    height: 449px;
+    border: 1px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: #FFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+    img{
+        position: relative;
+        left: 210px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    h4{
+        font-family: Commissioner;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 35px;
+
+    }
+
+    p{
+        font-family: Commissioner;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-left: 35px;
+        margin-right: 35px;
+
+
+    }
+
+    button{
+      width: 107px;
+      height: 48px;
+      margin-left: 210px;
+      margin-top: 20px;
+      border-radius: 25px;
+      border: none;
+      background: #3CB3AB;
+      color: #FFF;
+    }
+}
+
+
